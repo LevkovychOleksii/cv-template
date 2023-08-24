@@ -1,0 +1,263 @@
+body {
+  background-color: #f6f6fa;
+  padding: 40px 40px 40px 40px;
+  font-family: "Montserrat", sans-serif;
+}
+
+ul,
+ol {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.wrapper {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  margin: 0 auto;
+}
+.main {
+  padding-left: 90px;
+  padding-top: 100px;
+  padding-right: 220px;
+  padding-bottom: 110px;
+  box-sizing: border-box;
+}
+.sidebar {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #e0ebfe;
+  box-sizing: border-box;
+  width: 370px;
+}
+.sidebar-content {
+  padding: 11px 40px 40px 40px;
+  box-sizing: border-box;
+}
+
+/* Contacts */
+
+.contacts-title {
+  color: #161d2a;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 30px;
+  margin-bottom: 8px;
+}
+.contacts-type {
+  color: #161d2a;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-right: 8px;
+}
+.contacts-link {
+  color: #2979ff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration-line: underline;
+}
+.contacts-item {
+  margin-top: 0;
+  margin-bottom: 2px;
+}
+.contacts-container {
+  margin-bottom: 47px;
+}
+
+/* Tech skills */
+.skills-container {
+  margin-bottom: 40px;
+}
+.skills-title {
+  color: #161d2a;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+.skills-list {
+  padding-left: 16px;
+  margin-top: 8px;
+}
+.skills-list-item {
+  color: #161d2a;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+}
+
+/* Soft skills */
+.soft-container {
+  margin-bottom: 40px;
+}
+.soft-title {
+  color: #161d2a;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.soft-list {
+  padding-left: 16px;
+  margin-top: 8px;
+}
+.soft-list-item {
+  color: #161d2a;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+}
+
+/* Main content */
+.my-profession {
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.my-name {
+  color: #000;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 55px;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.my-descr {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 0;
+}
+.my-info {
+  margin-bottom: 64px;
+}
+
+/* Projects */
+
+.title {
+  color: #000;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  margin-bottom: 11px;
+  margin-top: 0px;
+}
+.my-project-list {
+  padding-top: 0px;
+  padding-left: 17px;
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.my-project-list-item-link {
+  color: #005fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  text-decoration-line: underline;
+  padding-left: 14px;
+}
+.my-project-descr {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+}
+.my-project-container {
+  margin-bottom: 51px;
+}
+
+/* Work experience */
+
+.company-first,
+.company-second,
+.company-third {
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px; /* 125% */
+}
+
+.work-container {
+  margin-bottom: 43px;
+}
+.work-position {
+  margin-top: 0px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px; /* 125% */
+  margin-bottom: 11px;
+}
+.work-term {
+  color: #a8a8a8;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px; /* 125% */
+  margin-bottom: 8px;
+}
+.company {
+  color: #6d9bf5;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+}
+.work-descr {
+  margin-top: 0px;
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  padding-left: 12px;
+  margin-bottom: 16px;
+}
+
+.university-title {
+  color: #000;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  margin-bottom: 11px;
+  margin-top: 0px;
+}
+
+.university-name {
+  margin-top: 0px;
+  color: #6d9bf5;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px; /* 125% */
+  margin-bottom: 11px;
+}
+
+.speciality {
+  margin-top: 0px;
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 11px;
+}
+
+.university-term {
+  color: #a8a8a8;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px; /* 125% */
+  margin-bottom: 8px;
+}
+
+.separator {
+  color: #000;
+}
